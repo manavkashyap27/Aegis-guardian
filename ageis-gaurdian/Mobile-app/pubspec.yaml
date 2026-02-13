@@ -1,0 +1,28 @@
+name: aegis_guardian_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  fl_chart: ^1.1.1
+  flutter:
+    sdk: flutter
+  go_router: ^16.3.0
+  google_fonts: ^6.3.2
+  google_maps_flutter: ^2.13.1
+  intl: ^0.20.2
+  percent_indicator: ^4.2.5
+  shimmer: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
